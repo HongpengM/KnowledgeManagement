@@ -1,0 +1,6 @@
+Set git push to remote origin using ssh
+
+cd [git repo]
+emcas .git/config
+
+change url under 

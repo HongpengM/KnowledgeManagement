@@ -1,0 +1,8 @@
+Set git push to remote origin using ssh
+
+cd [git repo]
+emcas .git/config
+
+change url under ['remote']
+https:// --> git@github.com:<User name>/<Proj.git>
+
