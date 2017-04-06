@@ -33,7 +33,8 @@ https://packagecontrol.io/installation
 	[
 		"Vintage"
 	],
-	"tab_size": 4,
+
+"tab_size": 4,
 	"translate_tabs_to_spaces": true
 }
 
@@ -103,6 +104,7 @@ Ctrl + B build and run大概是这个意思，可以对python脚本直接这样�
 Shift + Alt + 1/2/3 。。 界面分栏
 
 剩下的要是用的话，你可以慢慢探索，查找替换也还算方便～
-
+满足编码转换的需求
+Shift + P  install package安装 ConvertToUTF8
 最近刚刚配好这个环境就写了下
 
