@@ -1,0 +1,25 @@
+
+
+After set the discrete card 
+
+At first, you need to Fix compiz problem :
+
+sudo rm -fr ~/.cache/compizconfig-1
+sudo rm -fr ~/.compiz
+
+Then you should try this if your session not loading :
+
+sudo rm -fr ~/.Xauthority
+sudo rm -fr ~/.config/autostart
+
+then, zou have to Reinstall compiz
+
+sudo apt-get install --reinstall ubuntu-desktop unity compizconfig-settings-manager upstart
+
+Finally clear the Unity Desktop :
+
+sudo dconf reset -f /org/compiz/
+setsid unity
+
+Working on Ubuntu 16.04 amd64 on Dell XPS 13 Developer edition.
+
