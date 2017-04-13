@@ -1,0 +1,16 @@
+中间cmake .. 遇到error需要打开
+sudo cmake -DBLAS=open ..
+make runtest的时候遇到 
+check failed ...
+可能是由于存在不合适的显卡驱动，
+删掉原来的nvidia驱动重新安装即可
+
+--> ttf
+sudo service lightdm stop
+sudo apt remove --purge nvidia*
+sudo apt autoremove
+sudo bash [nvidia installer .run]
+sudo service lightdm restart
+sudo apt install [cuda-toolkit..]
+
+
