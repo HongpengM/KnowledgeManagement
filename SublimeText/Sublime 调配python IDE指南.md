@@ -27,14 +27,11 @@ https://packagecontrol.io/installation
 然后需要调缩进，在Preference--Setting里面的User setting加上下面代码
 
 {
-
-	
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-
-"tab_size": 4,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true
 }
 
