@@ -82,6 +82,8 @@ Ctrl +Shift + P 打开package install然后输入intall package
         Set is a false to disable Anaconda Linting totally
     */
     "anaconda_linting": false,
+    // Set default python interpreter path
+    "python_interpreter": "/Users/k/anaconda3/python3",
 }
 
 主题的风格可以在网上找喜欢的下载
