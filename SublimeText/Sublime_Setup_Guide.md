@@ -75,7 +75,7 @@ Encoding: ConvertToUTF8
     //   Set is a false to disable Anaconda Linting totally
     "anaconda_linting": false,
     // Set default python interpreter path
-    "python_interpreter": "/Users/k/anaconda3/python3",
+    "python_interpreter": "/Users/k/anaconda3/bin/python3",
 }
 ```
 
